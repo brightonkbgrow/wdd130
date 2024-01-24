@@ -8,5 +8,11 @@ color:black;
 background-color:aquamarine;
 font-size: 2em;
 font-family:'Trebuchet MS';
+}
+.other-paragraphs {
+color:black;
+background-color:darkblue;
+font-size: 15px;
+font-family: impact ;
 
 }
