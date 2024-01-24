@@ -2,5 +2,11 @@
 color: red;
 font-size: 30px;
 font-weight: bold;
+}
+#second-paragraph {
+color:black;
+background-color:aquamarine;
+font-size: 2em;
+font-family:'Trebuchet MS';
 
 }
