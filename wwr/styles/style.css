@@ -6,7 +6,7 @@ color: white;
 text-decoration: none;
 }
 nav a:hover
-{color: white;
+{color: #f5c242;
 text-decoration: none;}
 home-title
 {color: white;}
@@ -39,11 +39,11 @@ color: white;
 #background
 {background-color: #0b797a;}
 .msg
-{background-color: #0b797a;}
+{background-color: #f5c242;}
 .msg h2
-{color: white;}
+{color: #0b797a;}
 .msg p
-{color: white;}
+{color: #0b797a;}
 footer
 {background-color: #0b797a;
 color: white;
