@@ -3,9 +3,11 @@ div {max-width: 1600px}
 nav a
 {text-align: center;
 color: white;
+text-decoration: none;
 }
 nav a:hover
-{color: white;}
+{color: white;
+text-decoration: none;}
 home-title
 {color: white;}
 h4
@@ -48,3 +50,15 @@ color: white;
 }
 footer a:hover 
 {color: white;}
+footer p 
+{font-size: 1.2em;}
+footer p a:hover
+{text-decoration: underline;}
+.icon 
+{width: 80px;}
+.logo 
+{width: 80px;}
+#hero-img 
+{width: 100%;}
+
+
