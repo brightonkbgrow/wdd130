@@ -8,6 +8,6 @@ p {
 background-color: greenyellow;
 border: 10px solid green;
 padding: 100px;
-margin: 100px;
+margin: 20px auto;
 width: 400px;
 }
