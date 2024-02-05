@@ -1,7 +1,13 @@
+img {
+display: block;
+margin: 10px;
+width: 400px;
+
+}
 p {
 background-color: greenyellow;
 border: 10px solid green;
 padding: 100px;
 margin: 100px;
-width: 500px;
+width: 400px;
 }
