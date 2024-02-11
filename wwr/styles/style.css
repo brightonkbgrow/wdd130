@@ -30,6 +30,10 @@ h4
 main section
 {text-align: center;}
 #background {height: 725px;}
+main section img
+{box-sizing: border-box;
+
+}
 body
 {background-color: #0b797a;
 font-family: Roboto, verdana, sans-serif;
@@ -52,6 +56,7 @@ color: white;
 font-size: 18px;
 padding: 15px 30px;
 margin: 50px;
+border-radius: 5px;
 }
 .book:hover 
 {background-color: #f5c242;
@@ -78,6 +83,7 @@ footer
 {background-color: #0b797a;
 color: white;
 padding: 15px 50px;
+margin-top: 200px;
 }
 footer a:hover 
 {color: white;}
@@ -87,7 +93,6 @@ footer p a:hover
 {text-decoration: underline;}
 footer .social img
 {padding-top: 15px;
-
 }
 .icon 
 {width: 80px;
@@ -99,5 +104,16 @@ padding-top: 35px;}
 }
 #hero-img 
 {width: 100%;}
-.river-card, 
+.rivers-card
+{margin: 200px 0;
+}
+.rapids-card
+{margin: 200px 0;
+}
+.camping-card
+{margin: 200px 0;
+}
+.card-img
+{border:solid #f5c242 10px;
+}
 
