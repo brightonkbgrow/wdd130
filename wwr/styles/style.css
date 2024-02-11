@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:&display=swap');
+
+
 div {max-width: 1600px}
 #content {margin: 0 auto;}
 nav a
@@ -9,7 +13,8 @@ nav a:hover
 {color: #f5c242;
 text-decoration: none;}
 home-title
-{color: white;}
+{color: white;
+font-family: "Fira Sans", arial, sans-serif;}
 h4
 {color: white;}
 
@@ -21,7 +26,9 @@ main section
 {text-align: center;}
 #background {height: 725px;}
 body
-{background-color: #0b797a;}
+{background-color: #0b797a;
+font-family: Roboto, verdana, sans-serif;
+}
 header
 {background-color: #0b797a;}
 nav a:hover
