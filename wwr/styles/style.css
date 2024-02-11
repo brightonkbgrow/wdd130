@@ -8,13 +8,17 @@ nav a
 {text-align: center;
 color: white;
 text-decoration: none;
+padding: 35px;
 }
 nav a:hover
 {color: #f5c242;
 text-decoration: none;}
 home-title
 {color: white;
-font-family: "Fira Sans", arial, sans-serif;}
+font-family: "Fira Sans", arial, sans-serif;
+font-size: 2em;
+padding: 35px;
+}
 h4
 {color: white;}
 
@@ -28,6 +32,13 @@ main section
 body
 {background-color: #0b797a;
 font-family: Roboto, verdana, sans-serif;
+font-size: 22px;
+margin: 0;
+padding: 0;
+}
+h2
+{margin: 0;
+
 }
 header
 {background-color: #0b797a;}
@@ -38,6 +49,7 @@ color: white;
 .book, .join
 {background-color: #0b797a;
 color: white;
+font-size: 18px;
 }
 .book:hover 
 {background-color: #f5c242;
@@ -49,11 +61,15 @@ color: white;
 #background
 {background-color: #0b797a;}
 .msg
-{background-color: #f5c242;}
+{background-color: #f5c242;
+font-size: line-height
+}
 .msg h2
 {color: #0b797a;}
 .msg p
-{color: #0b797a;}
+{color: #0b797a;
+font-size: 0.8em;
+}
 footer
 {background-color: #0b797a;
 color: white;
@@ -65,9 +81,13 @@ footer p
 footer p a:hover
 {text-decoration: underline;}
 .icon 
-{width: 80px;}
+{width: 80px;
+padding-top: 35px;}
 .logo 
 {width: 80px;}
+#logo_link 
+{padding-top: 5px;
+}
 #hero-img 
 {width: 100%;}
 
