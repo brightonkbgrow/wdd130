@@ -18,6 +18,7 @@ home-title
 font-family: "Fira Sans", arial, sans-serif;
 font-size: 2em;
 padding: 35px;
+margin-top: 10px;
 }
 h4
 {color: white;}
@@ -38,7 +39,6 @@ padding: 0;
 }
 h2
 {margin: 0;
-
 }
 header
 {background-color: #0b797a;}
@@ -50,6 +50,8 @@ color: white;
 {background-color: #0b797a;
 color: white;
 font-size: 18px;
+padding: 15px 30px;
+margin: 50px;
 }
 .book:hover 
 {background-color: #f5c242;
@@ -62,17 +64,20 @@ color: white;
 {background-color: #0b797a;}
 .msg
 {background-color: #f5c242;
-font-size: line-height
+font-size: line-height;
+padding: 35px;
 }
 .msg h2
 {color: #0b797a;}
 .msg p
 {color: #0b797a;
 font-size: 0.8em;
+padding-bottom: 15px;
 }
 footer
 {background-color: #0b797a;
 color: white;
+padding: 15px 50px;
 }
 footer a:hover 
 {color: white;}
@@ -80,6 +85,10 @@ footer p
 {font-size: 1.2em;}
 footer p a:hover
 {text-decoration: underline;}
+footer .social img
+{padding-top: 15px;
+
+}
 .icon 
 {width: 80px;
 padding-top: 35px;}
@@ -90,5 +99,5 @@ padding-top: 35px;}
 }
 #hero-img 
 {width: 100%;}
-
+.river-card, 
 
