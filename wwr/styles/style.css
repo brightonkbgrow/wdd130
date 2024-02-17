@@ -39,17 +39,19 @@ margin-top: 100px;
 }
 
 #hero-msg h1
-{text-align: center;}
+{text-align: center;
+position: relative;}
 #hero-msg h4{
 display: grid;
 text-align: center;
 color: white;
 grid-column: 2/3;
 grid-row: 1/2;
-
+position: relative;
 }
 .button-box
-{text-align: center;}
+{text-align: center;
+position: relative;}
 main section
 {text-align: center;}
 #background {height: 725px;}
@@ -143,6 +145,7 @@ align-self: center;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 margin-top: -100px;
+position: relative;
 }
 #hero-box{
 grid-column: 1 / span 5;
