@@ -139,6 +139,7 @@ margin-top: -100px;
 #hero-box{
 grid-column: 1 / span 5;
 grid-row: 1 / span 1;
+position: relative;
 z-index: -1;
 }
 #hero-img 
