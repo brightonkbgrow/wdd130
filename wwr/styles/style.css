@@ -94,6 +94,7 @@ line-height: 1.5em;
 padding: 35px;
 grid-column: 6/10;
 grid-row: 6/7;
+box-shadow: 5px 5px 10px gray;
 }
 .msg h2
 {color: #0b797a;}
@@ -160,11 +161,18 @@ grid-row: 2/3;
 .card-img
 {border:solid #f5c242 10px;
 width: 100%;
+transition: transform .5s;
+box-shadow: 5px 5px 10px gray;
+}
+.card-img:hover{
+opacity: .6;
+transform: scale(1.1);
 }
 .mountains{
 width: 100%;
 grid-column: 2/7;
 grid-row: 5/8;
+box-shadow: 5px 5px 10px gray;
 }
 .home-grid{
 display: grid;
