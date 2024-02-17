@@ -10,13 +10,14 @@ display: flex;
 justify-content: space-around;}
 nav a
 {text-align: center;
+background-color:gray;
 color: white;
 text-decoration: none;
 padding: 35px;
 }
 nav a:hover
 {background-color: #f5c242;
-color: white;
+color: black;
 text-decoration: none;}
 home-title
 {color: white;
