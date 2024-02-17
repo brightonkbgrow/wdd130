@@ -6,6 +6,7 @@
 div {max-width: 1600px}
 #content {margin: 0 auto;}
 nav {
+width: 100%;
 display: flex;
 justify-content: space-around;
 background-color: gray;
