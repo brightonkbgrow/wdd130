@@ -8,7 +8,9 @@ div {max-width: 1600px}
 nav {
 display: flex;
 justify-content: space-around;
-background-color: gray;}
+background-color: gray;
+z-index: 1;
+}
 nav a
 {text-align: center;
 color: white;
