@@ -16,6 +16,7 @@ nav a
 color: white;
 text-decoration: none;
 padding: 35px;
+flex: 1;
 }
 nav a:hover
 {background-color: #f5c242;
