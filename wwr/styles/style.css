@@ -28,8 +28,16 @@ margin-top: 10px;
 h4
 {color: white;}
 
-#hero-msg h1, #hero-msg h4
+#hero-msg h1
 {text-align: center;}
+#hero-msg h4{
+display: grid;
+text-align: center;
+color: white;
+grid-column: 2/3;
+grid-row: 1/2;
+
+}
 .button-box
 {text-align: center;}
 main section
