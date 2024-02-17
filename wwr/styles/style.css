@@ -107,6 +107,9 @@ footer
 color: white;
 padding: 15px 50px;
 margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 footer a:hover 
 {color: white;}
