@@ -71,7 +71,9 @@ header
 {background-color: #0b797a;
 display: grid;
 grid-template-columns: 150px auto;
+position: relative;
 z-index: 1;
+
 }
 .book, .join
 {background-color: #0b797a;
