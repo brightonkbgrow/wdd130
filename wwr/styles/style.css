@@ -7,10 +7,10 @@ div {max-width: 1600px}
 #content {margin: 0 auto;}
 nav {
 display: flex;
-justify-content: space-around;}
+justify-content: space-around;
+background-color: gray;}
 nav a
 {text-align: center;
-background-color:gray;
 color: white;
 text-decoration: none;
 padding: 35px;
