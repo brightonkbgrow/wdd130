@@ -140,7 +140,7 @@ align-self: center;
 }
 #hero{
 display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(5, 1fr);
 
 position: relative;
 }
@@ -152,7 +152,8 @@ position: relative;
 z-index: 2;
 }
 #hero-img 
-{width: 100%;}
+{width: 100%;
+}
 .rivers-card
 {margin: 200px 0;
 grid-column: 2/4;
