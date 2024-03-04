@@ -208,6 +208,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
     #hero-msg {
         margin-top: 0;
+        position: absolute;
     }
     #hero-msg h4 {
         display: none;
