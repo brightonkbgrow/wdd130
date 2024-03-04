@@ -207,7 +207,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         margin-top: 0;
     }
     #hero-msg {
-        margin-top: 0;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 100px;
         position: absolute;
         top: 50%;
         left: 50%;
