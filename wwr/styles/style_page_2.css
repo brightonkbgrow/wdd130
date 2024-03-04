@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+div {max-width: 1600px}
+#content {margin: 0 auto;}
+nav {
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: #0b797a;
+z-index: 1;
+}
+nav a
+{text-align: center;
+color: white;
+text-decoration: none;
+padding: 35px;
+flex: 1;
+}
+nav a:hover
+{background-color: #f5c242;
+color: black;
+text-decoration: none;}
