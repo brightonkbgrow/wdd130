@@ -141,7 +141,7 @@ align-self: center;
 #hero{
 display:grid;
 grid-template-columns: repeat(5, 1fr);
-
+margin-top: -100px;
 position: relative;
 }
 #hero-box{
@@ -150,6 +150,7 @@ grid-row: 1 / span 1;
 width: 100%;
 position: relative;
 z-index: 2;
+
 }
 #hero-img 
 {width: 100%;
