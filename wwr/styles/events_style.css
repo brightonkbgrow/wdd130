@@ -54,21 +54,18 @@ grid-gap: 20px;
 }
 #events_paragraph{
 background-color: #f5c242;
-grid-column: 1/2;
+grid-column: 1;
 width: 100%;
 height: auto;
 }
 #grand_canyon{
-grid-column: 2/3;
+grid-column: 2;
 border:solid #f5c242 10px;
 width: 100%;
 height: auto;
 transition: transform .5s;
 box-shadow: 5px 5px 10px gray;
 }
-
-
-
 .icon 
 {width: 80px;
 padding-top: 35px;}
