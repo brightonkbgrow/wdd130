@@ -50,6 +50,14 @@ padding-top: 35px;}
 justify-self: center;
 align-self: center;
 }
+.join
+{background-color: #0b797a;
+color: white;
+font-size: 18px;
+padding: 15px 30px;
+margin: 50px;
+border-radius: 5px;
+}
 footer
 {background-color: #f5c242;
 color: black;
