@@ -54,11 +54,15 @@ grid-template-columns: 1fr, 1fr, 1fr;
 grid-column: 1;
 grid-row: 1 / 2;
 }
-
-#grand_canyon{
+.canyon_img{
 grid-column: 1;
 grid-row: 2 / 3;
-
+}
+#grand_canyon
+{border:solid #f5c242 10px;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px gray;
 }
 
 
