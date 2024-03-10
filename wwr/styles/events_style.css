@@ -55,6 +55,7 @@ background-color: #f5c242;
 #events_paragraph{
 grid-column: 1;
 width: 100%;
+font-size: 20px;
 }
 #grand_canyon{
 grid-column: 2;
