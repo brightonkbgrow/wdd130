@@ -49,7 +49,6 @@ margin-top: 10px;
 #events_grid{
 display:grid;
 grid-template-columns: 1fr, 1fr, 1fr;
-position: relative;
 }
 #events_paragraph{
 grid-column: 1;
