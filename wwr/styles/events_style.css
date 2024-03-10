@@ -50,3 +50,21 @@ padding-top: 35px;}
 justify-self: center;
 align-self: center;
 }
+footer
+{background-color: #f5c242;
+color: black;
+padding: 15px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer a:hover 
+{color: white;}
+footer p 
+{font-size: 1.2em;}
+footer p a:hover
+{text-decoration: underline;}
+footer .social img
+{padding-top: 15px;
+}
