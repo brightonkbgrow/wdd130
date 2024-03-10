@@ -32,10 +32,15 @@ margin-top: 10px;
 }
 h4
 {color: white;}
-#hero-msg{
+#hero-msg
+{
 grid-column: 2/3;
 grid-row: 1/2;
 margin-top: 100px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 #hero-msg h1
