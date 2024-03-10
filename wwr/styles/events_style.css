@@ -48,8 +48,8 @@ padding: 35px;
 margin-top: 10px;
 }
 #events_grid{
-display:grid;
-grid-template-columns: 1fr, 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr;
 grid-gap: 20px;
 background-color: #f5c242;
 }
