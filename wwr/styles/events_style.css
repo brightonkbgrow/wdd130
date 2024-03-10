@@ -55,11 +55,12 @@ grid-gap: 20px;
 #events_paragraph{
 grid-column: 1/2;
 grid-row: 1 / 3;
-
 }
-#grand_canyon{
+.canyon_img{
 grid-column: 2/3;
 grid-row: 1 / 3;
+}
+#grand_canyon{
 border:solid #f5c242 10px;
 width: auto;
 height: 100%;
