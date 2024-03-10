@@ -10,6 +10,7 @@ width: 100%;
 display: flex;
 justify-content: space-around;
 background-color: #0b797a;
+z-index: 3;
 }
 nav a
 {text-align: center;
