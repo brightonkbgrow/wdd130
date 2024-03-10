@@ -51,12 +51,11 @@ margin-top: 10px;
 display:grid;
 grid-template-columns: 1fr, 1fr;
 grid-gap: 20px;
+background-color: #f5c242;
 }
 #events_paragraph{
-background-color: #f5c242;
 grid-column: 1;
 width: 100%;
-height: auto;
 }
 #grand_canyon{
 grid-column: 2;
