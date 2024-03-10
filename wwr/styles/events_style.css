@@ -80,18 +80,18 @@ justify-self: center;
 align-self: center;
 }
 #join_button
-{grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+{grid-template-columns: 1fr;
 }
 .join
-{grid-column: 5 / 7;
+{grid-column: 1 / span 1;
 grid-row: 1;
-    
 background-color: #f5c242;
 color: white;
 font-size: 18px;
 padding: 15px 30px;
-margin: 50px;
+margin: 50px auto;
 border-radius: 5px;
+text-align: center;
 }
 footer
 {background-color: #f5c242;
