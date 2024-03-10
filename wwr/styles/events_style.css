@@ -46,6 +46,24 @@ font-size: 2em;
 padding: 35px;
 margin-top: 10px;
 }
+#events_grid{
+display:grid;
+grid-template-columns: 1fr, 1fr, 1fr;
+position: relative;
+}
+#events_paragraph{
+grid-column: 1;
+grid-row: 1 / 2;
+}
+
+#grand_canyon{
+grid-column: 1;
+grid-row: 2 / 3;
+
+}
+
+
+
 .icon 
 {width: 80px;
 padding-top: 35px;}
