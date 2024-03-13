@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-#content{
-background-color: #0b797a;
-margin: 0 auto;
-font-family: "Fira Sans", arial, sans-serif;
-}
+
 div {max-width: 1600px}
 #content {margin: 0 auto;
-font-family: "Fira Sans", arial, sans-serif;}
+font-family: "Fira Sans", arial, sans-serif;
+}
 nav {
 width: 100%;
 display: flex;
@@ -34,6 +31,13 @@ display: grid;
 grid-template-columns: 150px auto;
 position: relative;
 z-index: 1;
+}
+body
+{background-color: #0b797a;
+font-family: Roboto, verdana, sans-serif;
+font-size: 22px;
+margin: 0;
+padding: 0;
 }
 form {
     /* Center the form on the page */
