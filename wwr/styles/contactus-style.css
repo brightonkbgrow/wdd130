@@ -3,6 +3,7 @@
 
 #content{
 background-color: #0b797a;
+margin: 0 auto;
 font-family: "Fira Sans", arial, sans-serif;
 }
 div {max-width: 1600px}
