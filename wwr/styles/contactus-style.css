@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-
+#content{
+background-color: #0b797a;
+font-family: "Fira Sans", arial, sans-serif;
+}
 div {max-width: 1600px}
 #content {margin: 0 auto;
 font-family: "Fira Sans", arial, sans-serif;}
