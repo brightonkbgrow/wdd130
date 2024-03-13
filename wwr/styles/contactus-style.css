@@ -54,6 +54,7 @@ align-self: center;
 }
 footer
 {background-color: #f5c242;
+width: 100%;
 color: black;
 padding: 15px 50px;
 margin-top: 200px;
