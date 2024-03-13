@@ -41,6 +41,14 @@ grid-template-columns: 150px auto;
 position: relative;
 z-index: 1;
 }
+#headline
+{color: white;
+text-align: center;
+font-family: "Fira Sans", arial, sans-serif;
+font-size: 2em;
+padding: 35px;
+margin-top: 10px;
+}
 .icon 
 {width: 80px;
 padding-top: 35px;}
