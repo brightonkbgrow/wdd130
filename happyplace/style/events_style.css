@@ -80,6 +80,30 @@ padding: 0;
 
 
 
+
+
+/* Style the main container */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the left dropdown container */
+#left_dropdown {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Style the right dropdown container */
+#right_dropdown {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 /* Hide paragraphs by default */
 #left_dropdown p,
 #right_dropdown p {
@@ -88,20 +112,11 @@ padding: 0;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* When the image is hovered, show the paragraph */
+/* When the container is hovered, show the paragraph */
 #left_dropdown:hover p,
 #right_dropdown:hover p {
     opacity: 1;
     transform: translateY(0);
-}
-
-/* Float images to the left or right */
-#left_dropdown img {
-    float: left;
-}
-
-#right_dropdown img {
-    float: right;
 }
 
 
