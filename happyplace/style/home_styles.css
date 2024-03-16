@@ -71,7 +71,7 @@ position: relative;
 {display:grid;
 grid-template-columns: 1fr;
 justify-items: center;
-margin-top: -200px;
+
 }
 .join
 { background-color: #065b61;
