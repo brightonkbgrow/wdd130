@@ -13,6 +13,10 @@ position: relative;
 justify-self: center;
 align-self: center;
 }
+.logo 
+{width: 80px;
+background-color: #065b61;
+}
 nav {
 width: 100%;
 display: flex;
@@ -44,7 +48,6 @@ padding: 0;
 
 
 
-
 footer
 {background-color: #065b61;
 color: white;
@@ -62,7 +65,4 @@ footer p a:hover
 {text-decoration: underline;}
 footer .social img
 {padding-top: 15px;
-}
-.logo 
-{width: 80px;
 }
