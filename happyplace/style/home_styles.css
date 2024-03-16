@@ -88,6 +88,7 @@ grid-template-columns: repeat(5, 1fr);
 position: relative;
 }    
 .main_image{
+grid-column: 1 / span 5;
 max-width: 100%;
 height: auto;
 }
