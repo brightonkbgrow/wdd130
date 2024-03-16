@@ -76,7 +76,21 @@ margin: 0;
 padding: 0;
 }
 #first_section{
+grid-template-columns: 1fr 1fr;
 color: white;
+#left_dropdown{
+grid-column: 1;
+
+
+
+}
+
+
+#right_dropdown{
+grid-column: 2;
+
+
+}
 
 
 }
