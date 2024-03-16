@@ -7,6 +7,7 @@ header
 display: grid;
 grid-template-columns: 150px auto;
 position: relative;
+font-family: Anta, "Kdam+Thmor+Pro";
 }
 #logo_link 
 {padding-top: 5px;
@@ -40,7 +41,7 @@ text-decoration: none;}
 
 body
 {background-color: #36393e;
-font-family: Roboto, verdana, sans-serif;
+font-family:"Noto+Sans", Roboto;
 font-size: 22px;
 margin: 0;
 padding: 0;
@@ -66,6 +67,3 @@ footer p a:hover
 footer .social img
 {padding-top: 15px;
 }
-.icon 
-{width: 80px;
-padding-top: 35px;}
