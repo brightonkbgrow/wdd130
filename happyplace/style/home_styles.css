@@ -76,15 +76,12 @@ text-align: center;
 background-color: #065b61;
 color: #f0ca4d;
 }
-main{
-font-family:"Noto+Sans", Roboto;
-
 
 
 }
 body
 {background-color: #36393e;
-font-family:"Noto+Sans", Roboto;
+    font-family: Anta, "Kdam+Thmor+Pro";
 font-size: 22px;
 margin: 0;
 padding: 0;
