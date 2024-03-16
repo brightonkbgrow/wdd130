@@ -72,7 +72,7 @@ margin: 50px auto;
 border-radius: 5px;
 text-align: center;
 }
-.join :hover{
+#join_button .join:hover{
 background-color: #065b61;
 color: #f0ca4d;
 }
