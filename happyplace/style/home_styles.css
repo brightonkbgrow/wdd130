@@ -98,16 +98,18 @@ z-index: -1;
 
 
 
-#second_section paragraphs{
+#second_section{
     display: grid;
     grid-template-columns: 1fr 1fr; /* One column for content and one for image */
-    grid-column: 1; /* Content takes the first column */
+ /* Content takes the first column */
 }
 #second_section paragraphs p {
+    grid-column: 1;
     margin-bottom: 10px; /* Add some spacing between paragraphs */
     font-size: 16px; /* Adjust font size as needed */
 }
 #second_section p2 {
+    grid-column: 1;
     margin-bottom: 10px; /* Add some spacing between paragraphs */
     font-size: 16px; /* Adjust font size as needed */
 }
