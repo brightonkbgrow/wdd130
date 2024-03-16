@@ -100,29 +100,25 @@ z-index: -1;
 
 #second_section {
     display: grid;
-    grid-template-columns: auto 1fr; /* One column for content and one for image */
-    gap: 20px; /* Gap between content and image */
-}
-
-#second_section .content {
+    grid-template-columns: 1fr 1fr; /* One column for content and one for image */
     grid-column: 1; /* Content takes the first column */
 }
-
-#second_section .image {
+#second_section p {
+    margin-bottom: 10px; /* Add some spacing between paragraphs */
+    font-size: 16px; /* Adjust font size as needed */
+}
+#second_section .discord_image {
     grid-column: 2; /* Image takes the second column */
     text-align: center; /* Align the image to the center */
 }
 
-#second_section .image img {
+#second_section .discord_image img {
     max-width: 100%; /* Ensure the image doesn't overflow its container */
     height: auto; /* Maintain aspect ratio */
 }
 
 /* Optional: Adjust the spacing and styling of the paragraphs */
-#second_section .content p {
-    margin-bottom: 10px; /* Add some spacing between paragraphs */
-    font-size: 16px; /* Adjust font size as needed */
-}
+
 
 
 
