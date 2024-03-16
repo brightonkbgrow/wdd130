@@ -17,6 +17,16 @@ padding: 35px;
 flex: 1;
 }
 nav a:hover
-{background-color: #f0ca4d;
-color: black;
+{background-color: #065b61;
+color: #f0ca4d;
 text-decoration: none;}
+
+
+
+body
+{background-color: #36393e;
+font-family: Roboto, verdana, sans-serif;
+font-size: 22px;
+margin: 0;
+padding: 0;
+}
