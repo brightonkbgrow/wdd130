@@ -78,10 +78,9 @@ padding: 0;
 
 
 
-
-
 #first_section {
     display: flex;
+    color: white;
   }
   
   #left_dropdown,
@@ -106,8 +105,8 @@ padding: 0;
     left: 0;
     width: 100%;
     padding: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: #36393e;
+    border: 1px solid #f0ca4d;
     transition: height 0.3s ease; /* Smooth transition for height */
     overflow: hidden; /* Hide overflow */
   }
