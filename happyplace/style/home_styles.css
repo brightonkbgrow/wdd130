@@ -113,7 +113,7 @@ font-size: 36px;
 color: white;}
 #second_section .discord_image {
 grid-column: 2;
-text-align: center;/
+text-align: center;
 }
 #second_section .discord_image img {
 max-width: 100%;
