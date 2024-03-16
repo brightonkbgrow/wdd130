@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kdam+Thmor+Pro&family=Noto+Sans:ital@0;1&family=Roboto:wght@300;400&display=swap');
+
+div {max-width: 1600px}
+#content {margin: 0 auto;}
+nav {
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: #065b61;
+height: 100%;
+}
+nav a
+{text-align: center;
+color: white;
+text-decoration: none;
+padding: 35px;
+flex: 1;
+}
+nav a:hover
+{background-color: #f0ca4d;
+color: black;
+text-decoration: none;}
