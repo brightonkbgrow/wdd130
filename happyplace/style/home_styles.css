@@ -101,6 +101,7 @@ z-index: -1;
 #second_section{
     display: grid;
     grid-template-columns: 1fr 1fr; /* One column for content and one for image */
+    grid-gap: 20px;
  /* Content takes the first column */
 }
 #second_section paragraphs p {
