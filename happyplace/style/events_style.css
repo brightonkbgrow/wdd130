@@ -81,27 +81,26 @@ padding: 0;
 
 
 
-
 /* Style the main container */
 main {
     display: flex;
-    justify-content: space-between;
 }
 
-/* Style the left dropdown container */
-#left_dropdown {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-/* Style the right dropdown container */
+/* Style the left and right dropdown containers */
+#left_dropdown,
 #right_dropdown {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Style the images */
+#left_dropdown img,
+#right_dropdown img {
+    width: 100%;
+    height: auto;
 }
 
 /* Hide paragraphs by default */
