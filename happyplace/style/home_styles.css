@@ -71,7 +71,7 @@ position: relative;
 {display:grid;
 grid-template-columns: 1fr;
 justify-items: center;
-margin-top: -150px;
+margin-top: -75px;
 
 }
 .join
