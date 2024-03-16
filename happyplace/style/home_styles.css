@@ -38,34 +38,36 @@ color: #f0ca4d;
 text-decoration: none;}
 
 
+#title{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
+
+}
 home-title
 {color: white;
 font-size: 2em;
 padding: 35px;
 margin-top: 10px;
+font-family: Anta, "Kdam+Thmor+Pro";
 }
-h4
-{color: white;}
-#hero-msg
-{
-grid-column: 2/3;
-grid-row: 1/2;
-margin-top: 100px;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+
+#title h1{
+    display: grid;
+    text-align: center;
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+
 }
-#hero-msg h1
-{text-align: center;
-position: relative;}
-#hero-msg h4{
+
+#title h4{
 display: grid;
 text-align: center;
 color: white;
 grid-column: 2/3;
-grid-row: 1/2;
+grid-row: 2/3;
 position: relative;
 }
 
