@@ -53,7 +53,7 @@ position: relative;
 #title h4{
 font-size: 36px;
 text-align: center;
-margin-top: -175px;
+margin-top: -150px;
 color: white;
 position: relative;
 }
@@ -92,7 +92,7 @@ position: relative;
 grid-column: 1 / span 5;
 max-width: 100%;
 height: auto;
-margin-top: -185px;
+margin-top: -225px;
 z-index: -1;
 }
 
