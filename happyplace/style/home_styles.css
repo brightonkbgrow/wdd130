@@ -99,6 +99,30 @@ z-index: -1;
 
 
 
+#second_section {
+    display: flex;
+    align-items: center;
+}
+#second_section .content {
+    flex: 1;
+    padding: 20px;
+}
+#second_section .image {
+    flex: 1;
+    text-align: center;
+}
+#second_section .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
 
 
 footer
