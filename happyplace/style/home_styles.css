@@ -41,7 +41,7 @@ text-decoration: none;}
 #title{
 color: white;
 padding: 35px;
-margin-top: -150px;
+margin-top: -1750px;
 font-family: Anta, "Kdam+Thmor+Pro";
 }
 
@@ -57,7 +57,7 @@ position: relative;
 #title h4{
 font-size: 24px;
 text-align: center;
-margin-top: -150px;
+margin-top: -200px;
 color: white;
 position: relative;
 }
@@ -71,6 +71,7 @@ position: relative;
 {display:grid;
 grid-template-columns: 1fr;
 justify-items: center;
+margin-top: -200px;
 }
 .join
 { background-color: #065b61;
