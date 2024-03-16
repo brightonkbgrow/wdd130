@@ -77,56 +77,32 @@ padding: 0;
 }
 
 
-#first_section {
-    display: flex;
-  }
-  
-  #left_dropdown,
-  #right_dropdown {
-    flex: 1;
-    padding: 20px;
-    position: relative;
-  }
-  
-  .dropdown {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  /* Images */
-  .dropdown img {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Hide paragraphs by default */
-  .left-content,
-  .right-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
-    transition: top 0.3s ease; /* Smooth transition */
-    overflow: hidden;
-  }
-  
-  /* Show paragraphs when image is hovered over */
-  #left_dropdown:hover .left-content,
-  #right_dropdown:hover .right-content {
-    display: block;
-    top: calc(100% + 10px); /* Adjust positioning */
-  }
-  
 
 
 
+/* Hide paragraphs by default */
+#left_dropdown p,
+#right_dropdown p {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
+/* When the image is hovered, show the paragraph */
+#left_dropdown:hover p,
+#right_dropdown:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Float images to the left or right */
+#left_dropdown img {
+    float: left;
+}
+
+#right_dropdown img {
+    float: right;
+}
 
 
 
