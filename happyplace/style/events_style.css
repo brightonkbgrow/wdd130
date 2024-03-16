@@ -79,6 +79,7 @@ padding: 0;
 
 
 
+
 #first_section {
     display: flex;
   }
@@ -100,25 +101,24 @@ padding: 0;
   #left_dropdown p,
   #right_dropdown p {
     display: none;
-    position: absolute; /* Adjust positioning */
-    top: 100%; /* Adjust positioning */
-    left: 0; /* Adjust positioning */
-    width: 100%; /* Adjust width */
-    padding: 10px; /* Adjust padding */
-    background-color: white; /* Adjust background */
-    border: 1px solid #ddd; /* Adjust border */
-    transition: top 0.3s ease; /* Smooth transition */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    transition: height 0.3s ease; /* Smooth transition for height */
+    overflow: hidden; /* Hide overflow */
   }
   
   /* Show paragraphs when dropdown is hovered over */
   #left_dropdown:hover p,
   #right_dropdown:hover p {
     display: block;
-    top: calc(100% + 10px); /* Adjust positioning */
-    z-index: 1; /* Adjust stacking */
+    height: auto; /* Allow the content to expand */
   }
   
-
 
 
 
