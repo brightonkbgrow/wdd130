@@ -75,26 +75,35 @@ font-size: 22px;
 margin: 0;
 padding: 0;
 }
-#first_section{
-grid-template-columns: 1fr 1fr;
-color: white;
-#left_dropdown{
-grid-column: 1;
 
 
-
-}
-
-
-#right_dropdown{
-grid-column: 2;
-
-
-}
-
-
-}
-
+#first_section {
+    display: flex;
+  }
+  
+  #left_dropdown,
+  #right_dropdown {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .dropdown {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Dropdown Content */
+  .left-content,
+  .right-content {
+    display: none;
+  }
+  
+  #left_dropdown.active .left-content,
+  #right_dropdown.active .right-content {
+    display: block;
+  }
+  
 
 
 
