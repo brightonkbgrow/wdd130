@@ -91,7 +91,8 @@ position: relative;
 grid-column: 1 / span 5;
 max-width: 100%;
 height: auto;
-margin-top: -300px;
+margin-top: -225px;
+z-index: 1;
 }
 
 
