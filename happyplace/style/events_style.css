@@ -101,6 +101,7 @@ padding: 0;
   #right_dropdown p {
     display: none;
     position: absolute;
+    text-align: center;
     margin: 30px;
     top: 100%;
     left: 0;
