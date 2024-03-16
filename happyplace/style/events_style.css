@@ -77,8 +77,6 @@ padding: 0;
 }
 
 
-
-
 #first_section {
     display: flex;
   }
@@ -97,9 +95,15 @@ padding: 0;
     position: relative;
   }
   
+  /* Images */
+  .dropdown img {
+    width: 100%;
+    height: auto;
+  }
+  
   /* Hide paragraphs by default */
-  #left_dropdown .left-content,
-  #right_dropdown .right-content {
+  .left-content,
+  .right-content {
     display: none;
     position: absolute;
     top: 100%;
@@ -112,23 +116,13 @@ padding: 0;
     overflow: hidden;
   }
   
-  /* Show paragraphs when dropdown parent is hovered over */
+  /* Show paragraphs when image is hovered over */
   #left_dropdown:hover .left-content,
   #right_dropdown:hover .right-content {
     display: block;
     top: calc(100% + 10px); /* Adjust positioning */
   }
   
-  /* Show paragraphs when image is hovered over */
-  #left_dropdown:hover img + .left-content,
-  #right_dropdown:hover img + .right-content {
-    display: block;
-  }
-  
-
-
-
-
 
 
 
