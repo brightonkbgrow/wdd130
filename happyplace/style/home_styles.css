@@ -41,7 +41,7 @@ text-decoration: none;}
 #title{
 color: white;
 padding: 35px;
-margin-top: -175px;
+margin-top: -200px;
 font-family: Anta, "Kdam+Thmor+Pro";
 }
 
@@ -71,6 +71,7 @@ position: relative;
 {display:grid;
 grid-template-columns: 1fr;
 justify-items: center;
+margin-top: -150px;
 
 }
 .join
