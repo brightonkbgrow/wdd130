@@ -40,7 +40,6 @@ text-decoration: none;}
 
 #title{
 color: white;
-font-size: 2em;
 padding: 35px;
 margin-top: 10px;
 font-family: Anta, "Kdam+Thmor+Pro";
@@ -48,12 +47,14 @@ font-family: Anta, "Kdam+Thmor+Pro";
 
 
 #title h1{
+font-size: 44px;
 text-align: center;
 color: white;
 position: relative;
 }
 
 #title h4{
+    font-size: 24px;
 text-align: center;
 color: white;
 position: relative;
