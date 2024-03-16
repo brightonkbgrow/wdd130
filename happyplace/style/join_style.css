@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kdam+Thmor+Pro&family=Noto+Sans:ital@0;1&family=Roboto:wght@300;400&display=swap');
+
+div {max-width: 1600px}
+#content {margin: 0 auto;}
+header
+{background-color: #36393e;
+display: grid;
+grid-template-columns: 150px auto;
+position: relative;
+font-family: Anta, "Kdam+Thmor+Pro";
+}
+#logo_link 
+{padding-top: 5px;
+justify-self: center;
+align-self: center;
+}
+.logo 
+{width: 80px;
+background-color: #065b61;
+}
+nav {
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: #065b61;
+height: 100%;
+}
+nav a
+{text-align: center;
+color: white;
+text-decoration: none;
+padding: 35px;
+flex: 1;
+}
+nav a:hover
+{background-color: #065b61;
+color: #f0ca4d;
+text-decoration: none;}
+
+
+
+body
+{background-color: #36393e;
+font-family:"Noto+Sans", Roboto;
+font-size: 22px;
+margin: 0;
+padding: 0;
+}
+
+
+
+footer
+{background-color: #065b61;
+color: white;
+padding: 15px 50px;
+margin-top: 200px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer a:hover 
+{color: #f0ca4d;}
+footer p 
+{font-size: 1.2em;}
+footer p a:hover
+{text-decoration: underline;}
+footer .social img
+{padding-top: 15px;
+}
