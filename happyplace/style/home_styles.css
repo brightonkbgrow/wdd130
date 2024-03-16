@@ -99,31 +99,24 @@ z-index: -1;
 
 
 #second_section{
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* One column for content and one for image */
-    grid-gap: 30px;
-    margin-top: 30px;
- /* Content takes the first column */
+display: grid;
+grid-template-columns: 1fr 1fr; 
+grid-gap: 30px;
+margin-top: 30px;
 }
 #second_section paragraphs p {
-    grid-column: 1;
-    margin-bottom: 10px; /* Add some spacing between paragraphs */
-    font-size: 16px; /* Adjust font size as needed */
-
+grid-column: 1;
+margin-bottom: 10px;
+font-size: 16px; 
 }
 #second_section .discord_image {
-    grid-column: 2; /* Image takes the second column */
-    text-align: center; /* Align the image to the center */
+grid-column: 2;
+text-align: center;/
 }
-
 #second_section .discord_image img {
-    max-width: 100%; /* Ensure the image doesn't overflow its container */
-    height: auto; /* Maintain aspect ratio */
+max-width: 100%;
+height: auto;
 }
-
-/* Optional: Adjust the spacing and styling of the paragraphs */
-
-
 
 
 
