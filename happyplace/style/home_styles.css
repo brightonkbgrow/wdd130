@@ -39,35 +39,23 @@ text-decoration: none;}
 
 
 #title{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-
-}
-home-title
-{color: white;
+color: white;
 font-size: 2em;
 padding: 35px;
 margin-top: 10px;
 font-family: Anta, "Kdam+Thmor+Pro";
 }
 
-#title h1{
-    display: grid;
-    text-align: center;
-    color: white;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    position: relative;
 
+#title h1{
+text-align: center;
+color: white;
+position: relative;
 }
 
 #title h4{
-display: grid;
 text-align: center;
 color: white;
-grid-column: 2/3;
-grid-row: 2/3;
 position: relative;
 }
 
