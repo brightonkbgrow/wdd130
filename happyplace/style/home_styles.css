@@ -83,8 +83,9 @@ margin: 0;
 padding: 0;
 }
 #first_section {
-max-width: 1000px;
-margin: 0 auto;
+display:grid;
+grid-template-columns: repeat(5, 1fr);
+position: relative;
 }    
 .main_image{
 max-width: 100%;
