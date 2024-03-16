@@ -109,7 +109,7 @@ margin: 30px;
 }
 #paragraphs p {
 grid-column: 1;
-font-size: 44px; 
+font-size: 36px; 
 color: white;}
 #second_section .discord_image {
 grid-column: 2;
