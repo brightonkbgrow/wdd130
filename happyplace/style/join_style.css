@@ -60,8 +60,10 @@ margin-top: 10px;
 color: white;
 font-family: Anta, "Kdam+Thmor+Pro";
 font-size: 64px;
-padding: 50px 700px;
+padding: 50px 30px;
 margin: 50px auto;
+margin-left: 100%;
+margin-right: 100%;
 border-radius: 5px;
 text-align: center;
 }
