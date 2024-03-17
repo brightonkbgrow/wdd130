@@ -105,82 +105,50 @@ footer .social img
 
 
 
-
-
-/* Style the main container */
 main {
     display: flex;
     justify-content: space-around;
 }
-
-/* Style the columns */
 .column {
     flex: 1;
-    max-width: 50%; /* Each column takes up half the width */
-    padding: 0 15px; /* Add some padding to each column */
+    max-width: 50%;
+    padding: 0 15px;
 }
-
-/* Style the dropdown containers */
 #left_dropdown,
 #right_dropdown {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Center-align the content */
+    text-align: center;
 }
-
-/* Style the images */
 .dropdown {
     width: 100%;
     height: auto;
 }
-
-/* Hide paragraphs by default */
-#left_dropdown p,
-#right_dropdown p {
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-/* When the container is hovered, show the paragraph */
-#left_dropdown:hover p,
-#right_dropdown:hover p {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Style the images */
-#left_dropdown img {
-    width: 100%;
-    height: auto;
-    float: left;
-    z-index: 1; /* Set a higher z-index for the image */
-}
-
-#right_dropdown img {
-    width: 100%;
-    height: auto;
-    float: right;
-    z-index: 1; /* Set a higher z-index for the image */
-}
-
-/* Hide paragraphs by default */
 #left_dropdown p,
 #right_dropdown p {
     opacity: 0;
     transform: translateY(-100%);
     transition: opacity 0.3s ease, transform 0.3s ease;
     color: white;
-    background-color: #36393e; /* Background color for the paragraphs */
-    border: 2px solid #f0ca4d; /* Border color for the paragraphs */
-    padding: 10px; /* Add padding to the paragraphs */
+    background-color: #36393e;
+    border: 2px solid #f0ca4d;
+    padding: 10px;
 }
-
-/* When the container is hovered, show the paragraph */
 #left_dropdown:hover p,
 #right_dropdown:hover p {
     opacity: 1;
     transform: translateY(0);
 }
-
+#left_dropdown img {
+    width: 100%;
+    height: auto;
+    float: left;
+    z-index: 1;
+}
+#right_dropdown img {
+    width: 100%;
+    height: auto;
+    float: right;
+    z-index: 1;
+}
