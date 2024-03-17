@@ -165,3 +165,21 @@ main {
     z-index: 1; /* Set a higher z-index for the image */
 }
 
+/* Hide paragraphs by default */
+#left_dropdown p,
+#right_dropdown p {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    background-color: #ffffff; /* Background color for the paragraphs */
+    border: 2px solid #000000; /* Border color for the paragraphs */
+    padding: 10px; /* Add padding to the paragraphs */
+}
+
+/* When the container is hovered, show the paragraph */
+#left_dropdown:hover p,
+#right_dropdown:hover p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
