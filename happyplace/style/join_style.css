@@ -54,11 +54,11 @@ position: relative;
 grid-template-columns: 1fr;
 justify-items: center;
 margin-top: 10px;
-border: 1px #f0ca4d;
 }
 .join 
 { background-color: #065b61;
 color: white;
+border: 1px solid #f0ca4d;
 font-family: Anta, "Kdam+Thmor+Pro";
 font-size: 64px;
 padding: 40px 600px;
