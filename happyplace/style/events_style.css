@@ -171,8 +171,9 @@ main {
     opacity: 0;
     transform: translateY(-100%);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    background-color: #ffffff; /* Background color for the paragraphs */
-    border: 2px solid #000000; /* Border color for the paragraphs */
+    color: white;
+    background-color: #36393e; /* Background color for the paragraphs */
+    border: 2px solid #f0ca4d; /* Border color for the paragraphs */
     padding: 10px; /* Add padding to the paragraphs */
 }
 
