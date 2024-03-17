@@ -54,6 +54,7 @@ position: relative;
 grid-template-columns: 1fr;
 justify-items: center;
 margin-top: 10px;
+border: 1px #f0ca4d;
 }
 .join 
 { background-color: #065b61;
@@ -64,7 +65,6 @@ padding: 40px 600px;
 margin: 50px auto;
 border-radius: 35px;
 text-align: center;
-border: 1px #f0ca4d;
 }
 #join_button .join:hover{
 background-color: #065b61;
