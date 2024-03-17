@@ -49,8 +49,25 @@ text-align: center;
 color: white;
 position: relative;
 }
-
-
+#join_button
+{display:grid;
+grid-template-columns: 1fr;
+justify-items: center;
+margin-top: -72px;
+}
+.join 
+{ background-color: #065b61;
+color: white;
+font-size: 18px;
+padding: 15px 30px;
+margin: 50px auto;
+border-radius: 5px;
+text-align: center;
+}
+#join_button .join:hover{
+background-color: #065b61;
+color: #f0ca4d;
+}
 body
 {background-color: #36393e;
 font-family:"Noto+Sans", Roboto;
