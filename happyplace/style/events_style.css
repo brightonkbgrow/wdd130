@@ -102,7 +102,7 @@ main {
     transition: opacity 0.3s ease, transform 0.3s ease;
     color: white;
     background-color: #36393e;
-    border: 2px solid #f0ca4d;
+    border: 1px solid #f0ca4d;
     padding: 10px;
 }
 #left_dropdown:hover p,
