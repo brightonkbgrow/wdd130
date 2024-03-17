@@ -92,7 +92,7 @@ display: grid;
 grid-column: 1;
 grid-row: 1;
 border: 1px solid #f0ca4d;
-
+z-index: 1;
 }
 #paragraph{
 display: grid;
@@ -107,7 +107,7 @@ display: grid;
 grid-column: 3;
 grid-row: 1;
 border: 1px solid #f0ca4d;
-
+z-index: 1;
 }
 
 
