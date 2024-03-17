@@ -86,6 +86,7 @@ grid-gap: 15px;
 background-color: #065b61;
 color: white;
 border: 1px solid #f0ca4d;
+z-index: -1;
 }
 #gamer1{
 display: grid;
