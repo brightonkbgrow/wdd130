@@ -107,34 +107,32 @@ footer .social img
 
 
 
-
-
 /* Style the main container */
 main {
     display: flex;
+    justify-content: space-around;
 }
 
-/* Style the left and right dropdown containers */
+/* Style the columns */
+.column {
+    flex: 1;
+    max-width: 50%; /* Each column takes up half the width */
+    padding: 0 15px; /* Add some padding to each column */
+}
+
+/* Style the dropdown containers */
 #left_dropdown,
 #right_dropdown {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    text-align: center; /* Center-align the content */
 }
 
 /* Style the images */
-#left_dropdown img {
-    width: 50%;
+.dropdown {
+    width: 100%;
     height: auto;
-    float: left;
-}
-
-#right_dropdown img {
-    width: 50%;
-    height: auto;
-    float: right;
 }
 
 /* Hide paragraphs by default */
