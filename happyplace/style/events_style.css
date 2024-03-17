@@ -149,3 +149,19 @@ main {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Style the images */
+#left_dropdown img {
+    width: 100%;
+    height: auto;
+    float: left;
+    z-index: 1; /* Set a higher z-index for the image */
+}
+
+#right_dropdown img {
+    width: 100%;
+    height: auto;
+    float: right;
+    z-index: 1; /* Set a higher z-index for the image */
+}
+
