@@ -79,6 +79,7 @@ padding: 0;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr;
+grid-gap: 15px;
 background-color: #065b61;
 color: white;
 border: 1px solid #f0ca4d;
