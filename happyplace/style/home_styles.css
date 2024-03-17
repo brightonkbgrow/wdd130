@@ -115,6 +115,7 @@ color: white;}
 #second_section .discord_image {
 grid-column: 2;
 text-align: center;
+border: 1px solid #f0ca4d;
 }
 #second_section .discord_image img {
 max-width: 100%;
