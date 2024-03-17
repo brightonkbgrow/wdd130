@@ -84,15 +84,18 @@ color: white;
 border: 1px solid #f0ca4d;
 }
 #gamer1{
+display: grid;
 grid-column: 1;
 grid-row: 1;
 }
 #paragraph{
+display: grid;
 grid-column: 2;
 grid-row: 1;
 
 }
 #gamer2{
+display: grid;
 grid-column: 3;
 grid-row: 1;
 
