@@ -91,6 +91,8 @@ border: 1px solid #f0ca4d;
 display: grid;
 grid-column: 1;
 grid-row: 1;
+border: 1px solid #f0ca4d;
+
 }
 #paragraph{
 display: grid;
@@ -98,13 +100,13 @@ grid-column: 2;
 grid-row: 1;
 font-size: 32px;
 text-align: center;
-border: 1px solid #f0ca4d;
 
 }
 #gamer2{
 display: grid;
 grid-column: 3;
 grid-row: 1;
+border: 1px solid #f0ca4d;
 
 }
 
