@@ -58,7 +58,7 @@ margin-top: 10px;
 .join 
 { background-color: #065b61;
 color: white;
-border: 1px solid #f0ca4d;
+border: 1px solid white;
 font-family: Anta, "Kdam+Thmor+Pro";
 font-size: 64px;
 padding: 40px 600px;
@@ -69,6 +69,7 @@ text-align: center;
 #join_button .join:hover{
 background-color: #065b61;
 color: #f0ca4d;
+border: 1px solid #f0ca4d;
 }
 body
 {background-color: #36393e;
